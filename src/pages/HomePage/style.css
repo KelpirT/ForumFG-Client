@@ -2,3 +2,11 @@
     background-color: black;
     margin-top: 100px;
 }
+@media screen and (max-width: 768px) {
+    button span{
+      display: none
+    }
+    button{
+      padding: 10px;
+    }
+  }
